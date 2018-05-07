@@ -1,6 +1,6 @@
 # Update this if needed
 # It has to point to the directory containing the boost headers
-boost_path = "."
+boost_path = "/usr/include/boost"
 
 
 from distribute_setup import use_setuptools
@@ -8,7 +8,7 @@ use_setuptools()
 
 from setuptools import setup, find_packages, Extension
 setup(name='Osm4routing',
-      version='1.0.6',
+      version='1.0.6.3',
       author= 'Tristram Graebener',
       author_email = 'tristramg@gmail.com',
       description = 'A simple tool to parse OpenStreetMap data to use them for routing',
